@@ -34,6 +34,5 @@ We have used **two sessions (first two sessions) for training and last session a
 The positive samples of training data include data from VEP task only of a single subject which is our taget subject.
 The negative samples of the training data include data from all the other tasks except VEP of all the other subjects (except target subject).
 A similar approach is used for making postive and negative samples of the test data, except that the data is taken from third session only.
-Code and results of this experiment is given in directory [Go to directory](./bmt_exp).
-
+Code and results of this experiment is given in directory [bmt_exp](./bmt_exp).
 
