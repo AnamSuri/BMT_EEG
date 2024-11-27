@@ -25,7 +25,7 @@ The dipole components are shown below:
 ## Experiments
 ### For Mental Task Classification
 We have performed multi-class classification, and classified the 11 tasks: 3 motor movement, 4 motor imagery, 2 baseline tasks (Resting state eyes open and closed) and 2 VEP tasks. We have used 60-40 train-test split for a particular subject. The 60% training data was further divided into train and validation using 10 fold cross-validation.
-Code and results of this experiment is given in directory [Go to directory](./mtc_exp).
+Code and results of this experiment is given in directory [mtc_exp](./mtc_exp).
 
 
 ### For Biometric Authentication
