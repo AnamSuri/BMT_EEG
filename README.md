@@ -4,13 +4,15 @@ Here, we have developed model for Mental Task Classification and Biometric Authe
 ![Alt text](eeg_cnn_gru_architecture.png)
 
 ## Data collection
-The EEG data were collected from 20 subjects in 3 different sessions, using 32 channels RMS device where the electrodes are pasted according to the internatinal 10-20 system (see Figure ![Alt text](electrode_placement.png)
- , with 256Hz sampling rate. The subjects were asked to sit comfortably in a chair and complete the corresponding tasks with minimal unnecessary muscle movements. The single experiment took approximately 2 hours, which include obtaining written consent, providing instructions, placing electrodes, verifying impedance, recording data, and removing electrodes. The study protocol was approved by the Jamia Institutional Ethics Committee and was in accordance with the Declaration of Helsinki.
+The EEG data were collected from 20 subjects in 3 different sessions, using 32 channels RMS device where the electrodes are pasted according to the internatinal 10-20 system (see Figure below), with 256Hz sampling rate. The subjects were asked to sit comfortably in a chair and complete the corresponding tasks with minimal unnecessary muscle movements. The single experiment took approximately 2 hours, which include obtaining written consent, providing instructions, placing electrodes, verifying impedance, recording data, and removing electrodes. The study protocol was approved by the Jamia Institutional Ethics Committee and was in accordance with the Declaration of Helsinki.
+ ![Alt text](electrode_placement.png)
 The description of various data recording protocols is given in data_description file. The sequence of data collection paradigm is illustrated in the below figure:
 ![Alt text](final_diagram_data_sequence.png)
 
 ## Data Preprocessing
-We have used EEGLAB toolbox for data preprocessing. We have performed removal of irrelevant channels which resulted in 20 channels (see Figure ![Alt text](electrodes_by_name.png)), re-referencing (average), FIR filter and ICA. The final components obtained after performing ICA are given below. The below picture represented the brain activity of the user while recording the data.![Alt text](all_components_brain_activity.png) 
+We have used EEGLAB toolbox for data preprocessing. We have performed removal of irrelevant channels which resulted in 20 channels (see Figure), re-referencing (average), FIR filter and ICA. The final components obtained after performing ICA are given below. The below picture represented the brain activity of the user while recording the data.
+[Alt text](electrodes_by_name.png)
+![Alt text](all_components_brain_activity.png) 
 
 ## Experiments
 ### For Mental Task Classification
