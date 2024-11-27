@@ -13,7 +13,7 @@ The description of various data recording protocols is given in data_description
 
 ## Data Preprocessing
 We have used EEGLAB toolbox for data preprocessing. We have performed removal of irrelevant channels which resulted in 20 channels (see Figure), re-referencing (average), FIR filter and ICA. The final components obtained after performing ICA are given below. The below picture represented the brain activity of the user while recording the data.
-![Alt text](electrodes_by_name.png)
+![Alt text](electrode_placement.png)
 
 ![Alt text](all_components_brain_activity.png) 
 
