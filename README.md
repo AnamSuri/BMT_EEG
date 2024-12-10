@@ -43,8 +43,12 @@ Code and results of this experiment is given in directory [bmt_exp](./bmt_exm).
 We have given below the average results obtained for both the experiments as ROC plots and FPR vs FRR plot for all the 20 subjects.
 
 #### Biometric authentication
-![Alt text](Figure_10.png)
+<div align="center">
+    <img src="Figure_10.png" alt="Alt text" width="300">
+</div>
 
 #### Multi-class mental task classification
-![Alt text](Figure_11.png)
+<div align="center">
+    <img src="Figure_11.png" alt="Alt text" width="300">
+</div>
 
