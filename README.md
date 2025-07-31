@@ -5,6 +5,8 @@ Here, we have developed model for Biometric Authentication and Identification Sy
 
 ## Data collection
 The EEG data were collected from 20 subjects in 3 different sessions, using 32 channels RMS device where the electrodes are pasted according to the internatinal 10-20 system (see Figure below), with 256Hz sampling rate. The subjects were asked to sit comfortably in a chair and complete the corresponding tasks with minimal unnecessary muscle movements. The single experiment took approximately 2 hours, which include obtaining written consent, providing instructions, placing electrodes, verifying impedance, recording data, and removing electrodes. The study protocol was approved by the Jamia Institutional Ethics Committee and was in accordance with the Declaration of Helsinki.
+The dataset is available on [IEEE Dataport](https://ieee-dataport.org/documents/bmteeg-novel-eeg-dataset-evaluating-effects-new-protocols-biometric-authentication) DOI: 10.21227/ayfc-hc17
+The dataset would be provided on request to the author.
 
 <div align="center">
     <img src="electrode_placement.png" alt="Alt text" width="300">
