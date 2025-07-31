@@ -39,10 +39,10 @@ Code and results of this experiment is given in directory [bmt_exp](./bmt_exm).
 ### Biometric Authentication: Skilled Forgery
 To evaluate how well the proposed BMT_EEG authentication system can handle the skilled forgery attacks, we included a threat model that closely simulates more informed impostor attempts. In this scenario, to simulate skilled forgery, the negative class or 'Forged' samples in the test set were constructed using **Session 3 data from the same task (VEP3) or a highly similar task (VEP4) performed by the remaining 19 users**.
 For skilled forgery, the MI1 task yielded an average EER of 7.01%, demonstrating the resilience of the model to both naive and sophisticated imposters.
-Code and results of this experiment is given in directory [bmt_exp](./skilled_forgery).
+Code and results of this experiment is given in directory [skilled_forgery](./skilled_forgery).
 ### Biometric Identification
 For implementing a closed-loop biometric identification system, a multi-class classification approach was adopted. One of the tasks e.g. MI2 was selected to train multi-class model using Train data from **first two sessions of all subjects and evaluated on Test data from their third session and non-MI2 task**. This session-wise separation between Train/Test dataset allowed to assess the model’s capability to generalize across multiple sessions while accurately identifying subjects based on their neural activity.
-Code and results of this experiment is given in directory [bmt_exp](./identification).
+Code and results of this experiment is given in directory [identification](./identification).
 
 ## Results
 We have given below the average results obtained for both the experiments as ROC plots and FPR vs FRR plot for all the 20 subjects.
