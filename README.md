@@ -49,7 +49,7 @@ We have given below the average results obtained for both the experiments as ROC
 
 #### Biometric authentication: Random Forgery
 <div align="center">
-    <img src="Figure_10.png" alt="Alt text" width="300">
+    <img src="Figure_11.png" alt="Alt text" width="300">
 </div>
 
 #### Biometric authentication: Skilled Forgery
