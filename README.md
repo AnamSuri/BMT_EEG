@@ -1,5 +1,5 @@
 # BMT_EEG
-This repository provides data and code for the paper entitled: "BMT_EEG: A Novel EEG Dataset to study the influence of novel protocol on mental task classification and authentication systems".
+This repository provides data and code for the paper entitled: "BMT_EEG: A Novel EEG Dataset for evaluating the effects of new protocols on biometric authentication systems".
 Here, we have developed model for Biometric Authentication and Identification Systems. The architecture of the proposed model consisting of Convolutional Neural Networks(CNNs) and Gated Recurrent units (GRUs) is given below:
 ![Alt text](architucture_bmt.png)
 
