@@ -1,7 +1,7 @@
 # BMT_EEG
 This repository provides data and code for the paper entitled: "BMT_EEG: A Novel EEG Dataset for evaluating the effects of new protocols on biometric authentication systems".
 Here, we have developed model for Biometric Authentication and Identification Systems. The architecture of the proposed model consisting of Convolutional Neural Networks(CNNs) and Gated Recurrent units (GRUs) is given below:
-![Alt text](architucture_bmt.png)
+![Alt text](Figure_9.png)
 
 ## Data collection
 The EEG data were collected from 20 subjects in 3 different sessions, using 32 channels RMS device where the electrodes are pasted according to the internatinal 10-20 system (see Figure below), with 256Hz sampling rate. The subjects were asked to sit comfortably in a chair and complete the corresponding tasks with minimal unnecessary muscle movements. The single experiment took approximately 2 hours, which include obtaining written consent, providing instructions, placing electrodes, verifying impedance, recording data, and removing electrodes. The study protocol was approved by the Jamia Institutional Ethics Committee and was in accordance with the Declaration of Helsinki.
